@@ -1,0 +1,24 @@
+{
+  "name": "wrms-dash-db",
+  "version": "1.0.0",
+  "description": "Catalyst EU dashboard DB library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jlabusch/wrms-dash-db.git"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Jacques Labuschagne <jlabusch@acm.org>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "config": "~1",
+    "pg": "~6",
+    "qs": "~6.4",
+    "sqlite3": "~4",
+    "request": "~2",
+    "restify": "~4.3",
+    "wrms-dash-util": "https://github.com/jlabusch/wrms-dash-util.git#0927206a1b1c16df7"
+  }
+}
